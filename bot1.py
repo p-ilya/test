@@ -77,7 +77,7 @@ The rest is echoed - just because.'''
 codes = cbparser.get_codes()
 codes = codes.split(', /')
 
-token = '127006823:AAEd4T_pdda2HQrKE6CFIwxDnMh5gNrthzA'
+token = 'XXXXXXXXX:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start','help'])
